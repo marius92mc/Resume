@@ -209,7 +209,7 @@ Modeling and Simulation \\
 \location{Oct 2016 | Detroit, MI}
   Worked with \textbf{\href{http://www.alexlambert.com/}{Alex Lambert}} to
   create an Arduino batting robot that uses simulated learning results to hit
-  incoming objects. C++
+  oncoming objects. C++
 \sectionsep
 
 \runsubsection{TRAIN-STREAM}
@@ -217,7 +217,7 @@ Modeling and Simulation \\
 \location{Sep 2016 | Stamford, CT}
   Worked with \textbf{\href{https://github.com/anand-ranganathan}{Anand Ranganathan}} to
   create a web app that provides multi-modal tranportation options, replete with
-  cost and travel time. Won an Uber-sponsored prize in the SmartCity category.
+  trip cost and travel time listings. Won an Uber-sponsored prize in the SmartCity category.
   JavaScript, Google Cloud Platform (Python, NoSQL)
 \sectionsep
 
