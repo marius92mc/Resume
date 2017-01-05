@@ -1,0 +1,239 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Zhawnen Chen - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (01/04/2017)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Zhanwen}{Chen}{ \urlstyle{same}\href{http://zhanwenchen.com}{zhanwenchen.com} \\
+\href{mailto:phil@zhanwenchen.com}{phil@zhanwenchen.com} | 650.382.2583
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.29\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{Vassar College}
+\descript{BA in Economics}
+\descript{Minor in Computer Science}
+\location{Dec 2016 | Poughkeepsie, NY}
+\location{ Cum. GPA: 3.0 / 4.0 \\
+C.S. GPA: 3.3 / 4.0}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links}
+Github: \href{https://github.com/zhanwenchen}{\bf zhanwenchen} \\
+LinkedIn:  \href{https://www.linkedin.com/in/zhanwenchen}{\bf zhanwenchen} \\
+Twitter:  \href{https://twitter.com/philzhanwenchen}{\bf @philzhanwenchen} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Analysis of Algorithms \\
+Parallel Programming \\
+Software Development \\
+Declarative Programming \\
+Modeling and Simulation \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+  Java   \textbullet{}  Python  \textbullet{} JavaScript \textbullet{} Matlab \\
+  \LaTeX\ \textbullet{} C\#                                                   \\
+\vspace{5pt}
+
+\location{Over 1000 lines:}
+  C      \textbullet{}  C++     \textbullet{} Haskell    \textbullet{} Prolog \\
+  HTML   \textbullet{} CSS                                                    \\
+\vspace{5pt}
+
+\location{Familiar:}
+  PostgreSQL \textbullet{} Shell \textbullet{} Ruby                           \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+\subsection{INROADS Scholarship}
+  2016
+\vspace{7pt}
+
+\subsection{Vassar College Concerto Competition for Soloists Winner}
+  2016
+\vspace{7pt}
+
+\subsection{Toastmasters International Speech Contest Third Place}
+  2015
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Pitney Bowes}
+\descript{| Software Engineering Intern }
+\location{Jun 2016 – Aug 2016 | Shelton, CT}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}  \item Developed a real-time O(n) database server that decodes and stores messages from PB products around the globe. C\#, SQL
+  \item Developed a configuration application that sets up Wi-Fi connection between PB mail printers and Windows-based tablets. C\#, Java
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Pitney Bowes}
+\descript{| Commodity Specialist Intern }
+\location{Jun 2015 – Aug 2015 | Danbury, CT}
+\begin{tightemize}
+  \item Developed a supply chain compliance data collection and management database\end{tightemize}\sectionsep
+
+\runsubsection{Nestlé Waters North America}
+\descript{| IS/IT Intern}
+\location{Jun 2014 – Aug 2014 | Stamford, CT}
+\begin{tightemize}
+  \item Developed a data analytics pipeline that automated sourcing, staging,  visualization, and regressions. SQL, R\end{tightemize}\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{RoadJams}
+\descript{| HackMarist}
+\location{Oct 2016 | Poughkeepsie, NY}
+  Worked with \textbf{\href{http://kburk.me/}{Kathleen Burkhardt}} to create
+  \textbf{RoadJams}, a web app that allows a group of users to create and manage
+  a shared Spotify playlist based on users' Spotify data and
+  preferences. Express.js, Socket.io, jQuery, PostgreSQL
+\sectionsep
+
+\runsubsection{SimulatedReality}
+\descript{| MHacks8}
+\location{Oct 2016 | Detroit, MI}
+  Worked with \textbf{\href{http://www.alexlambert.com/}{Alex Lambert}} to
+  create an Arduino batting robot that uses simulated learning results to hit
+  incoming objects. C++
+\sectionsep
+
+\runsubsection{TRAIN-STREAM}
+\descript{| Stamford Hackathon}
+\location{Sep 2016 | Stamford, CT}
+  Worked with \textbf{\href{https://github.com/anand-ranganathan}{Anand Ranganathan}} to
+  create a web app that provides multi-modal tranportation options, replete with
+  cost and travel time. Won an Uber-sponsored prize in the SmartCity category.
+  JavaScript, Google Cloud Platform (Python, NoSQL)
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACTIVITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Activities}
+\begin{tabular}{rll}
+2016     & Member                      & Association for the Advancement of Artificial Intelligence (AAAI) \\
+2016	   & Member                      & The Institute of Electrical and Electronics Engineers (IEEE CS, RAS) \\
+2016     & Member                      & VC++ (Vassar Student Developers)  \\
+2014	   & Member                      & Association for Computing Machinery (ACM SIGAI) \\
+\end{tabular}
+\sectionsep
+
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
