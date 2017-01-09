@@ -120,12 +120,21 @@ Modeling and Simulation \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
+
 \subsection{Programming}
   Java   \textbullet{}  C\#        \textbullet{}  JavaScript  \textbullet{}  Python  \\
   C      \textbullet{}  C++        \textbullet{}  HTML        \textbullet{}  CSS     \\
   MS SQL \textbullet{}  PostgreSQL \textbullet{}  Shell                              \\
 
   % Haskell  \textbullet{} Prolog \textbullet{} Matlab \LaTeX\ \\
+
+\vspace{7pt}
+
+\subsection{Frameworks}
+  jQuery      \textbullet{}  Node.js  \textbullet{}  Socket.io \\
+  Express.js  \textbullet{} Tensorflow \textbullet{} OpenCV\\
+  ROS        \textbullet{}  Bootstrap   \\
+
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -191,7 +200,7 @@ Modeling and Simulation \\
 \runsubsection{RoadJams}
 \descript{Web App | HackMarist}
 \location{Oct 2016 | Poughkeepsie, NY}
-  Co-created \textbf{RoadJams}, a web app that lets users to create
+  Co-created a web app that lets a group of users create
   and manage a shared Spotify playlist based on their Spotify data and
   preferences. Express.js, Socket.io, jQuery, PostgreSQL
 \sectionsep
