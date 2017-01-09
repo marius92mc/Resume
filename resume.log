@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  4 JAN 2017 22:21
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  9 JAN 2017 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -876,45 +876,35 @@ LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 (Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 86.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 126.
+(Font)              <7> on input line 224.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 126.
+(Font)              <5> on input line 224.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-|[]\EU1/Lato-Bol(0)/bx/n/11 TOASTMASTERS INTERNA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\EU1/Lato-Bol(0)/bx/n/11 TIONAL SPEECH CONTEST
- []
-
-
-Overfull \hbox (27.35034pt too wide) in paragraph at lines 234--241
+Overfull \hbox (27.35034pt too wide) in paragraph at lines 224--231
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 244.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 244.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 234.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 234.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
- 22077 strings out of 493591
- 395367 string characters out of 6143546
- 422519 words of memory out of 5000000
- 25330 multiletter control sequences out of 15000+600000
+ 22076 strings out of 493591
+ 395352 string characters out of 6143546
+ 421519 words of memory out of 5000000
+ 25329 multiletter control sequences out of 15000+600000
  4256 words of font info for 47 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 53i,11n,107p,10493b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,107p,10493b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (1 page).

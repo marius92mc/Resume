@@ -95,11 +95,11 @@ C.S. GPA: 3.3 / 4.0}
 %     LINKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links}
-Github: \href{https://github.com/zhanwenchen}{\bf zhanwenchen} \\
-LinkedIn:  \href{https://www.linkedin.com/in/zhanwenchen}{\bf zhanwenchen} \\
-Twitter:  \href{https://twitter.com/philzhanwenchen}{\bf @philzhanwenchen} \\
-\sectionsep
+%\section{Links}
+%Github: \href{https://github.com/zhanwenchen}{\bf zhanwenchen} \\
+%LinkedIn:  \href{https://www.linkedin.com/in/zhanwenchen}{\bf zhanwenchen} \\
+%Twitter:  \href{https://twitter.com/philzhanwenchen}{\bf @philzhanwenchen} \\
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
@@ -108,7 +108,7 @@ Twitter:  \href{https://twitter.com/philzhanwenchen}{\bf @philzhanwenchen} \\
 \section{Coursework}
 
 \subsection{Undergraduate}
-Analysis of Algorithms \\
+Data Structures and Algorithms \\
 Parallel Programming \\
 Software Development \\
 Declarative Programming \\
@@ -121,18 +121,11 @@ Modeling and Simulation \\
 
 \section{Skills}
 \subsection{Programming}
-\location{Over 5000 lines:}
-  Java   \textbullet{}  Python  \textbullet{} JavaScript \textbullet{} Matlab \\
-  \LaTeX\ \textbullet{} C\#                                                   \\
-\vspace{5pt}
+  Java   \textbullet{}  C\#        \textbullet{}  JavaScript  \textbullet{}  Python  \\
+  C      \textbullet{}  C++        \textbullet{}  HTML        \textbullet{}  CSS     \\
+  MS SQL \textbullet{}  PostgreSQL \textbullet{}  Shell                              \\
 
-\location{Over 1000 lines:}
-  C      \textbullet{}  C++     \textbullet{} Haskell    \textbullet{} Prolog \\
-  HTML   \textbullet{} CSS                                                    \\
-\vspace{5pt}
-
-\location{Familiar:}
-  PostgreSQL \textbullet{} Shell \textbullet{} Ruby                           \\
+  % Haskell  \textbullet{} Prolog \textbullet{} Matlab \LaTeX\ \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -144,12 +137,12 @@ Modeling and Simulation \\
   2016
 \vspace{7pt}
 
-\subsection{Vassar College Concerto Competition for Soloists Winner}
-  2016
-\vspace{7pt}
+%\subsection{Vassar College Concerto Competition for Soloists Winner}
+%  2016
+%\vspace{7pt}
 
-\subsection{Toastmasters International Speech Contest Third Place}
-  2015
+%\subsection{Toastmasters International Speech Contest Third Place}
+%  2015
 
 \sectionsep
 
@@ -196,27 +189,24 @@ Modeling and Simulation \\
 
 \section{Projects}
 \runsubsection{RoadJams}
-\descript{| HackMarist}
+\descript{Web App | HackMarist}
 \location{Oct 2016 | Poughkeepsie, NY}
-  Worked with \textbf{\href{http://kburk.me/}{Kathleen Burkhardt}} to create
-  \textbf{RoadJams}, a web app that allows a group of users to create and manage
-  a shared Spotify playlist based on users' Spotify data and
+  Co-created \textbf{RoadJams}, a web app that lets users to create
+  and manage a shared Spotify playlist based on their Spotify data and
   preferences. Express.js, Socket.io, jQuery, PostgreSQL
 \sectionsep
 
-\runsubsection{SimulatedReality}
-\descript{| MHacks8}
+\runsubsection{Simulated Reality}
+\descript{Embedded, ML | MHacks8}
 \location{Oct 2016 | Detroit, MI}
-  Worked with \textbf{\href{http://www.alexlambert.com/}{Alex Lambert}} to
-  create an Arduino batting robot that uses simulated learning results to hit
+  Co-created an Arduino batting robot that uses simulated learning results to hit
   oncoming objects. C++
 \sectionsep
 
-\runsubsection{TRAIN-STREAM}
-\descript{| Stamford Hackathon}
+\runsubsection{TRAIN STREAM}
+\descript{Web App | Stamford Hackathon}
 \location{Sep 2016 | Stamford, CT}
-  Worked with \textbf{\href{https://github.com/anand-ranganathan}{Anand Ranganathan}} to
-  create a web app that provides multi-modal tranportation options, replete with
+  Co-created a web app that provides multi-modal tranportation options, replete with
   trip cost and travel time listings. Won an Uber-sponsored prize in the SmartCity category.
   JavaScript, Google Cloud Platform (Python, NoSQL)
 \sectionsep
