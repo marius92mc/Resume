@@ -131,9 +131,9 @@ Modeling and Simulation \\
 \vspace{7pt}
 
 \subsection{Frameworks}
-  jQuery      \textbullet{}  Node.js  \textbullet{}  Socket.io \\
-  Express.js  \textbullet{} Tensorflow \textbullet{} OpenCV\\
-  ROS        \textbullet{}  Bootstrap   \\
+  jQuery      \textbullet{}  Node.js    \textbullet{}  Socket.io  \\
+  Express.js  \textbullet{}  Angular.js                           \\
+  Bootstrap   \textbullet{}  Tensorflow \textbullet{} OpenCV ROS  \\
 
 \sectionsep
 

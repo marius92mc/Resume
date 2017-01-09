@@ -23,6 +23,7 @@
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
 \definecolor{custombold}{HTML}{65ACE6}
+% \definecolor{custombold}{HTML}{333333}
 
 % Set main fonts
 \usepackage{fontspec}
