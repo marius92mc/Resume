@@ -122,18 +122,71 @@ Modeling and Simulation \\
 \section{Skills}
 
 \subsection{Programming}
-  Java   \textbullet{}  C\#        \textbullet{}  JavaScript  \textbullet{}  Python  \\
-  C      \textbullet{}  C++        \textbullet{}  HTML        \textbullet{}  CSS     \\
-  MS SQL \textbullet{}  PostgreSQL \textbullet{}  Shell                              \\
+% Line 1
+  Java
+  \textbullet{}
+  Python
+  \textbullet{}
+  JavaScript
+  \textbullet{}
+  C
+  \\
+
+  C++
+  \textbullet{}
+  C\#
+  \textbullet{}
+  HTML
+  \textbullet{}
+  CSS
+  \\
+
+  MS SQL
+  \textbullet{}
+  PostgreSQL
+  \textbullet{}
+  Shell
+  \\
+
+
+
 
   % Haskell  \textbullet{} Prolog \textbullet{} Matlab \LaTeX\ \\
 
 \vspace{7pt}
 
-\subsection{Frameworks}
-  jQuery      \textbullet{}  Node.js    \textbullet{}  Socket.io  \\
-  Express.js  \textbullet{}  Angular.js                           \\
-  Bootstrap   \textbullet{}  Tensorflow \textbullet{} OpenCV ROS  \\
+\subsection{Frameworks and Tools}
+
+  Node.js
+  \textbullet{}
+  Express.js
+  \textbullet{}
+  Socket.io
+  \\
+
+  Angular.js
+  \textbullet{}
+  jQuery
+  \textbullet{}
+  Bootstrap
+  \\
+
+  Tensorflow
+  \textbullet{}
+  OpenCV
+  \textbullet{}
+  ROS
+  \\
+
+  Google Cloud Platform
+  \textbullet{}
+  Heroku
+  \\
+
+  Git
+  \textbullet{}
+  GitHub
+  \\
 
 \sectionsep
 
@@ -175,8 +228,8 @@ Modeling and Simulation \\
 \descript{| Software Engineering Intern }
 \location{Jun 2016 – Aug 2016 | Shelton, CT}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}  \item Developed a real-time O(n) database server that decodes and stores messages from PB products around the globe. C\#, SQL
-  \item Developed a configuration application that sets up Wi-Fi connection between PB mail printers and Windows-based tablets. C\#, Java
+\begin{tightemize}  \item Developed a real-time O(n) database server that decodes and stores XML messages from PB products around the globe. C\#, SQL
+  \item Developed a configuration application that sets up Wi-Fi connection between PB mail printers and Windows-based tablets using REST APIs. C\#, Java
 \end{tightemize}
 \sectionsep
 
