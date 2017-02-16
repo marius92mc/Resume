@@ -10,6 +10,7 @@
 % https://github.com/deedydas/Deedy-Resume
 %
 % IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+% $ xelatex resume.xtx
 %
 % This template uses several fonts not included with Windows/Linux by
 % default. If you get compilation errors saying a font is missing, find the line
@@ -141,9 +142,7 @@ Modeling and Simulation \\
   CSS
   \\
 
-  MS SQL
-  \textbullet{}
-  PostgreSQL
+  SQL
   \textbullet{}
   Shell
   \\
@@ -228,7 +227,7 @@ Modeling and Simulation \\
 \descript{| Software Engineering Intern }
 \location{Jun 2016 – Aug 2016 | Shelton, CT}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}  \item Developed a real-time O(n) database server that decodes and stores XML messages from PB products around the globe. C\#, SQL
+\begin{tightemize}  \item Developed a massively scalable database server that decodes and stores XML messages from PB products around the globe, using computed integer indeces for string catetories. C\#, SQL
   \item Developed a configuration application that sets up Wi-Fi connection between PB mail printers and Windows-based tablets using REST APIs. C\#, Java
 \end{tightemize}
 \sectionsep
